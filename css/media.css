@@ -1,0 +1,232 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ /* header start */
+ .menu ul li a {
+    padding: 0px 0px !important;
+    text-align: right;
+    font-size: 15px;
+}
+/* header end */
+/* slider start */
+.menu ul li a {
+    padding: 0px 0px !important;
+}
+/* header end */
+/* slider start */
+
+.slide_text {
+    margin-top: 17px;
+    margin-bottom: 26px;
+}
+.slide_text h1 {
+    font-size: 25px;
+}
+.slide_text p{
+    margin-bottom: 9px;
+}
+.cid {
+    bottom: -2px !important;
+}
+.icon li {
+    font-size: 27px;
+    padding-right: 19px;
+    margin-bottom: 12px;
+}
+
+    /* slider end */
+    /* features start */
+    .features {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .t_h2{
+        font-size: 26px;
+    }
+    .t_p {
+        font-size: 18px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+    .f_text {
+        text-align: center;
+    }
+    .m-t-60 {
+        padding-top: 20px;
+    }
+    
+    .f_text p {
+        word-spacing: 0px;
+        letter-spacing: 1px;
+
+    }
+    /* features end */
+
+    /* contact start */
+    .contact{
+        padding-top: 60px;
+        padding-bottom: 37px;
+
+    }
+    .t_p{
+        font-size: 16px;
+    }
+    .contact_form input {
+        height: 36px;
+        margin-bottom: 10px;
+    }
+    .contact_form button {
+        height: 36px;
+        
+    }
+    .contact_form {
+        margin-top: 30px;
+        margin-bottom: 37px;
+    }
+    .social ul li a {
+        font-size: 23px;
+        margin-right: 0;
+    }
+    /* contact end */
+    footer {
+       
+        padding-bottom: 20px;
+    }
+ }
+ 
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+        /* header start */
+        .menu ul li a {
+            padding: 0px 0px !important;
+            font-size: 17px;
+        }
+
+        /* header end */
+        /* slider start */
+        .slide_text {
+            margin-top: 40px;
+        }
+        .slide_text h1 {
+            font-size: 27px;
+        }
+        .slide_text p{
+            margin-bottom: 20px;
+        }
+        .icon li {
+            font-size: 30px;
+            color: #010101;
+            padding-right: 24px;
+            margin-bottom: 24px;
+        }
+        .cid {
+            bottom: -3px !important;
+        }
+       
+        /* slider end */
+          
+        /* features start */
+        .f_text  {
+            margin-top: 4px;
+            text-align: center ;
+        }
+        .features {
+            padding-top: 60px;
+            padding-bottom: 80px;
+        }
+        .t_h2 {
+            font-size: 28px;
+        }
+        .t_p {
+            font-size: 18px;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+        
+        .contact_form input {
+            height: 36px;
+            margin-bottom: 10px;
+        }
+        .contact_form button {
+            height: 36px;
+            
+        }
+        .contact_form {
+            margin-top: 30px;
+            margin-bottom: 37px;
+        }
+        .social ul li a {
+            font-size: 23px;
+            margin-right: 0;
+        }
+       
+      
+        /* features end */
+        /*  contact start */
+        .contact { 
+            padding-bottom: 60px;
+        }
+        /* contact end */
+        
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    /* header start */
+    .menu ul li a {
+        padding: 0px 0px !important;
+    }
+    /* header end */
+    /* slider start */
+    
+    .slide_text {
+        margin-top: 40px;
+    }
+    .slide_text h1 {
+        font-size: 27px;
+    }
+    .slide_text p{
+        margin-bottom: 20px;
+    }
+    .slide_img {
+        margin-top: 10px;
+        margin-bottom: 86px;
+    }
+    .cid{
+        bottom: 7px !important;
+    }
+    /* slider end */
+
+    /* features start */
+
+
+    /* features end */
+    /* contact start */
+    .contact_form {
+        margin-bottom: 37px;
+    }
+    .social ul li a {
+        font-size: 28px;
+        
+    /* contact end */
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    
+    /* features start */
+
+
+    /* features end */
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) { 
+
+
+ } }
